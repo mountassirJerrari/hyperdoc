@@ -38,10 +38,10 @@ const Projects = () => {
           {projectData.map((project, index) => (
             <motion.div 
               key={project.id} 
-              className="relative overflow-hidden rounded-lg shadow-lg cursor-pointer hover:shadow-glow-mint transition-all duration-300"
+              className="relative overflow-hidden rounded-lg shadow-lg cursor-pointer hover:shadow-glow-mint transition-all duration-300 group"
               initial={{ y: 50, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              transition={{ delay: 0.1 * index, duration: 0.5 }}
+              transition={{ delay: 0.05 * index, duration: 0.3 }}
               onClick={() => openProjectModal(project)}
             >
               <img 
@@ -49,7 +49,7 @@ const Projects = () => {
                 alt={project.title}
                 className="w-full h-60 object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-space-dark to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4">
+              <div className="absolute inset-0 bg-gradient-to-t from-space-dark to-transparent opacity-0 group-hover:opacity-100 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4 text-white">
                 <h3 className="font-orbitron text-xl mb-1">{project.title}</h3>
                 <p className="text-gray-300 text-sm mb-2">{project.technologies.slice(0, 3).join(', ')}</p>
                 <div className="flex space-x-2">
