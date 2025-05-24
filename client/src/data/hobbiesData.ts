@@ -25,65 +25,78 @@ export type BooksContent = {
 
 export const hobbiesData: Hobby[] = [
   {
-    title: "Digital Art",
-    description: "Creating digital art pieces that blend technology and abstract concepts. Exploring new techniques in digital painting and 3D modeling.",
+    title: "Pixel Art",
+    description: "Creating pixel art designs and game sprites. Exploring retro aesthetics and nostalgic game styles.",
     type: "gallery",
     content: {
       images: [
         {
-          src: "https://images.unsplash.com/photo-1604871000636-074fa5117945?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=300",
-          alt: "Abstract digital art"
+          src: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=300",
+          alt: "Pixel art creation"
         },
         {
-          src: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=300",
-          alt: "Tech-inspired digital art"
+          src: "https://images.unsplash.com/photo-1627163439134-7a8c47e08208?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=300",
+          alt: "Game-inspired pixel art"
         }
       ]
     }
   },
   {
-    title: "Music Production",
-    description: "Producing electronic music and ambient soundscapes in my home studio. Experimenting with synthesizers and digital audio workstations.",
+    title: "Game Development",
+    description: "Building small games and exploring game mechanics as a hobby. Experimenting with different frameworks and game engines.",
     type: "playlist",
     content: {
       songs: [
-        { title: "Synth Odyssey", duration: "3:45" },
-        { title: "Cosmic Waves", duration: "4:21" },
-        { title: "Digital Dreams", duration: "5:08" },
-        { title: "Neural Network", duration: "3:57" }
+        { title: "Tetris Clone", duration: "C++" },
+        { title: "2D Platformer", duration: "JavaScript" },
+        { title: "Simple Puzzle Game", duration: "Unity" },
+        { title: "8-bit Style RPG", duration: "Godot" }
       ]
     }
   },
   {
-    title: "Photography",
-    description: "Capturing urban landscapes, architecture, and technology through photography. Focusing on night photography and long exposure techniques.",
+    title: "Technology Exploration",
+    description: "Experimenting with new technologies and frameworks. Constantly learning and testing new programming languages and tools.",
     type: "grid",
     content: {
       images: [
         {
-          src: "https://images.unsplash.com/photo-1545231027-637d2f6210f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=150&h=150",
-          alt: "Urban night photography"
+          src: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=150&h=150",
+          alt: "Coding setup"
         },
         {
-          src: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=150&h=150",
-          alt: "Abstract architecture"
+          src: "https://images.unsplash.com/photo-1550063873-ab792950096b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=150&h=150",
+          alt: "Technology exploration"
         },
         {
-          src: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=150&h=150",
-          alt: "Technology close-up"
+          src: "https://images.unsplash.com/photo-1573495612622-f1e564a8b4d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=150&h=150",
+          alt: "Learning and development"
         }
       ]
     }
   },
   {
-    title: "Reading",
-    description: "Exploring science fiction, technology, and design literature that inspires my work and creative thinking.",
+    title: "Technical Reading",
+    description: "Reading technical books and articles about software architecture, design patterns, and new technologies to expand my knowledge.",
     type: "books",
     content: {
       books: [
-        { title: "Snow Crash", author: "Neal Stephenson" },
-        { title: "Neuromancer", author: "William Gibson" },
-        { title: "The Design of Everyday Things", author: "Don Norman" }
+        { title: "Clean Code", author: "Robert C. Martin" },
+        { title: "Design Patterns", author: "Erich Gamma et al." },
+        { title: "You Don't Know JS", author: "Kyle Simpson" },
+        { title: "System Design Interview", author: "Alex Xu" }
+      ]
+    }
+  },
+  {
+    title: "Networking & Security",
+    description: "Exploring network configurations, security protocols, and system administration concepts. Applying CCNA and Red Hat knowledge in practical scenarios.",
+    type: "books",
+    content: {
+      books: [
+        { title: "CCNA Official Cert Guide", author: "Wendell Odom" },
+        { title: "Red Hat Enterprise Linux", author: "Sander van Vugt" },
+        { title: "Practical Network Security", author: "Allan Liska" }
       ]
     }
   }

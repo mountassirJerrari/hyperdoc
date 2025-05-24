@@ -16,43 +16,56 @@ export type SoftSkill = {
 };
 
 export const techSkills: TechSkill[] = [
-  { name: "React", icon: "react" },
-  { name: "Node.js", icon: "node-js" },
+  { name: "React.js", icon: "react" },
+  { name: "Next.js", icon: "node-js" },
+  { name: "TypeScript", icon: "js" },
   { name: "JavaScript", icon: "js" },
   { name: "Java", icon: "java" },
   { name: "Angular", icon: "angular" },
+  { name: "Node.js", icon: "node-js" },
+  { name: "NestJS", icon: "node-js" },
+  { name: "Laravel", icon: "php" },
+  { name: "Spring", icon: "java" },
   { name: "Docker", icon: "docker" },
-  { name: "AWS", icon: "aws" },
-  { name: "SQL/NoSQL", icon: "database" },
-  { name: "Git", icon: "git-branch" },
-  { name: "Python", icon: "python" }
+  { name: "Ansible", icon: "server" },
+  { name: "MySQL", icon: "database" },
+  { name: "Express.js", icon: "server" },
+  { name: "Tailwind CSS", icon: "code" },
+  { name: "C++", icon: "code" },
+  { name: "GitHub", icon: "git-branch" }
 ];
 
 export const creativeSkills: CreativeSkill[] = [
-  { name: "Digital Art", icon: "palette", proficiency: 90 },
+  { name: "Web Development", icon: "code", proficiency: 95 },
   { name: "UI/UX Design", icon: "desktop", proficiency: 85 },
-  { name: "3D Modeling", icon: "cube", proficiency: 75 }
+  { name: "DevOps", icon: "server", proficiency: 80 },
+  { name: "Game Development", icon: "gamepad", proficiency: 75 }
 ];
 
 export const softSkills: SoftSkill[] = [
   { 
-    name: "Team Leadership", 
-    icon: "users", 
-    description: "Mentoring junior developers and coordinating team efforts" 
+    name: "Problem Solving", 
+    icon: "lightbulb", 
+    description: "Analytical thinking and creative solution development" 
   },
   { 
-    name: "Project Management", 
-    icon: "list-checks", 
-    description: "Planning, executing, and delivering projects on schedule" 
+    name: "Fast Learner", 
+    icon: "book", 
+    description: "Ability to quickly learn and adapt to new technologies" 
+  },
+  { 
+    name: "Team Collaboration", 
+    icon: "users", 
+    description: "Working effectively with others on complex projects" 
   },
   { 
     name: "Communication", 
     icon: "message-square", 
-    description: "Clear communication with clients and team members" 
+    description: "Clear communication of technical concepts" 
   },
-  { 
-    name: "Problem Solving", 
-    icon: "lightbulb", 
-    description: "Analytical thinking and creative solution development" 
+  {
+    name: "System Administration",
+    icon: "server",
+    description: "Network and Linux system administration skills (CCNA, Red Hat)"
   }
 ];

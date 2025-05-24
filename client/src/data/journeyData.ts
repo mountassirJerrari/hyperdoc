@@ -7,27 +7,27 @@ export type JourneyItem = {
 
 export const journeyData: JourneyItem[] = [
   {
-    title: "Senior Software Developer",
-    period: "2020 - Present",
-    description: "Leading development of cloud-native applications and microservices architecture. Mentoring junior developers and implementing CI/CD pipelines.",
+    title: "Engineering Degree - ENSET Mohammedia",
+    period: "2023 - Present",
+    description: "Pursuing an engineering degree in Software Engineering and Distributed Computer Systems at ENSET Mohammedia, focusing on advanced software architecture and distributed systems.",
     color: "purple"
   },
   {
-    title: "Full Stack Developer",
-    period: "2017 - 2020",
-    description: "Developed responsive web applications using React and Node.js. Implemented RESTful APIs and database optimization.",
+    title: "Web Developer Internship - MOENN Technologies",
+    period: "April 2023 - June 2023",
+    description: "Implemented FIDO2 passwordless authentication with CTAP and WebAuthn. Developed a recipe management web application using Next.js and NestJS.",
     color: "accent"
   },
   {
-    title: "Junior Developer",
-    period: "2015 - 2017",
-    description: "Started my professional journey working on front-end development. Built and maintained client-facing applications.",
+    title: "DUT in Computer Engineering - EST Fès",
+    period: "2021 - 2023",
+    description: "Earned a Diplôme Universitaire de Technologie (DUT) in Computer Engineering with a specialization in Software Engineering from Ecole Supérieure de Technologie in Fès.",
     color: "cyan"
   },
   {
-    title: "Computer Science Degree",
-    period: "2011 - 2015",
-    description: "Bachelor's degree with focus on software engineering and digital art. Started exploring the intersection of technology and creativity.",
+    title: "Web Developer Internship - WEM",
+    period: "July 2022",
+    description: "Designed and developed an e-commerce website using Laravel, integrating product management, order management, and secure payment systems.",
     color: "mint"
   }
 ];
