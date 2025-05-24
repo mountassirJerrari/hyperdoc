@@ -61,7 +61,7 @@ const Home = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 0.3 }}
     >
       <div className="max-w-5xl mx-auto w-full flex flex-col items-center">
         {/* Profile */}
@@ -69,7 +69,7 @@ const Home = () => {
           className="mb-8"
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
+          transition={{ duration: 0.3, delay: 0.1 }}
         >
           <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-2 border-space-accent shadow-[0_0_15px_rgba(77,97,252,0.7)]">
             <img 

@@ -31,14 +31,14 @@ const Contact = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 0.3 }}
     >
       <div className="max-w-4xl w-full mx-auto">
         <motion.h2 
           className="font-orbitron text-3xl md:text-4xl font-bold mb-12 text-center"
           initial={{ y: -20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.3 }}
         >
           Contact <span className="text-space-accent">Me</span>
         </motion.h2>
@@ -48,7 +48,7 @@ const Contact = () => {
             className="bg-space-secondary p-6 rounded-lg shadow-lg"
             initial={{ x: -50, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
-            transition={{ delay: 0.2, duration: 0.5 }}
+            transition={{ delay: 0.1, duration: 0.3 }}
           >
             <h3 className="text-xl font-orbitron mb-6 text-space-accent">Get In Touch</h3>
             
@@ -120,7 +120,7 @@ const Contact = () => {
             className="bg-space-secondary p-6 rounded-lg shadow-lg"
             initial={{ x: 50, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
-            transition={{ delay: 0.3, duration: 0.5 }}
+            transition={{ delay: 0.2, duration: 0.3 }}
           >
             <h3 className="text-xl font-orbitron mb-6 text-space-accent">Send Message</h3>
             
@@ -181,7 +181,7 @@ const Contact = () => {
           className="mt-12 text-center text-gray-500 text-sm"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 0.5 }}
+          transition={{ delay: 0.3, duration: 0.3 }}
         >
           <p>&copy; 2023 John Doe. All rights reserved.</p>
         </motion.div>
