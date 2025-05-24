@@ -22,14 +22,14 @@ const Projects = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 0.3 }}
     >
       <div className="max-w-6xl w-full mx-auto">
         <motion.h2 
           className="font-orbitron text-3xl md:text-4xl font-bold mb-12 text-center"
           initial={{ y: -20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.3 }}
         >
           My <span className="text-space-mint">Projects</span>
         </motion.h2>

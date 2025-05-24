@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, MapPin, ArrowRight, Github, Linkedin, Twitter, Dribbble } from "lucide-react";
-import { FaGithub, FaLinkedinIn, FaTwitter, FaDribbble } from "react-icons/fa";
+import { Mail, MapPin, ArrowRight, Github, Linkedin } from "lucide-react";
+import { FaGithub, FaLinkedinIn, FaTwitter, FaInstagram, FaDiscord } from "react-icons/fa";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -58,10 +58,10 @@ const Contact = () => {
                   <Mail className="text-space-accent" size={18} />
                 </div>
                 <a 
-                  href="mailto:john.doe@example.com" 
+                  href="mailto:mountassir.jerrari@gmail.com" 
                   className="text-gray-300 hover:text-space-accent transition-colors"
                 >
-                  john.doe@example.com
+                  mountassir.jerrari@gmail.com
                 </a>
               </div>
               
@@ -69,7 +69,7 @@ const Contact = () => {
                 <div className="w-10 h-10 rounded-full bg-space-accent bg-opacity-20 flex items-center justify-center mr-4">
                   <MapPin className="text-space-accent" size={18} />
                 </div>
-                <span className="text-gray-300">San Francisco, CA</span>
+                <span className="text-gray-300">Mohammedia, Morocco</span>
               </div>
             </div>
             
@@ -95,22 +95,22 @@ const Contact = () => {
                   <FaLinkedinIn className="text-space-purple" size={18} />
                 </motion.a>
                 <motion.a 
-                  href="https://twitter.com" 
+                  href="https://discord.com" 
                   className="w-10 h-10 rounded-full bg-space-cyan bg-opacity-20 flex items-center justify-center hover:bg-opacity-30 transition-all"
                   whileHover={{ y: -3 }}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaTwitter className="text-space-cyan" size={18} />
+                  <FaDiscord className="text-space-cyan" size={18} />
                 </motion.a>
                 <motion.a 
-                  href="https://dribbble.com" 
+                  href="https://instagram.com" 
                   className="w-10 h-10 rounded-full bg-space-mint bg-opacity-20 flex items-center justify-center hover:bg-opacity-30 transition-all"
                   whileHover={{ y: -3 }}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaDribbble className="text-space-mint" size={18} />
+                  <FaInstagram className="text-space-mint" size={18} />
                 </motion.a>
               </div>
             </div>
