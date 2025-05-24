@@ -67,9 +67,9 @@ const ProfileNavigation = () => {
   ];
 
   return (
-    <div className="relative w-[400px] h-[400px] mb-16">
+    <div className="relative w-full max-w-[600px] h-[450px] mb-16 mx-auto">
       {/* Orbit Path */}
-      <div className="absolute top-1/2 left-1/2 w-[300px] h-[300px] border border-white/10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+      <div className="absolute top-1/2 left-1/2 w-[350px] h-[350px] border border-white/10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
       
       {/* Profile Picture */}
       <motion.div 
@@ -78,7 +78,7 @@ const ProfileNavigation = () => {
         animate={{ scale: 1 }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        <div className="w-32 h-32 rounded-full overflow-hidden border-2 border-space-accent shadow-[0_0_15px_rgba(77,97,252,0.7)]">
+        <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-space-accent shadow-[0_0_15px_rgba(77,97,252,0.7)]">
           <img 
             src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=300" 
             alt="Profile" 
@@ -92,13 +92,13 @@ const ProfileNavigation = () => {
         const angle = index * (360 / navItems.length);
         const delay = index * 0.1;
         const radian = (angle * Math.PI) / 180;
-        const x = Math.cos(radian) * 150;
-        const y = Math.sin(radian) * 150;
+        const x = Math.cos(radian) * 175;
+        const y = Math.sin(radian) * 175;
         
         return (
           <motion.div
             key={item.path}
-            className="absolute top-1/2 left-1/2 flex flex-col items-center"
+            className="absolute top-1/2 left-1/2 flex flex-col items-center z-20"
             style={{ 
               transform: `translate(calc(-50% + ${x}px), calc(-50% + ${y}px))` 
             }}
@@ -109,15 +109,15 @@ const ProfileNavigation = () => {
             onMouseLeave={() => setHoveredItem(null)}
           >
             <Link href={item.path}>
-              <button 
-                className={`w-12 h-12 rounded-full bg-space-secondary flex items-center justify-center ${item.glowClass} transition-all duration-300 hover:scale-110`}
+              <div 
+                className={`w-14 h-14 rounded-full bg-space-secondary flex items-center justify-center ${item.glowClass} transition-all duration-300 hover:scale-110 cursor-pointer`}
                 aria-label={item.label}
               >
                 {item.icon}
-              </button>
+              </div>
             </Link>
             <motion.span
-              className={`absolute mt-14 text-xs font-orbitron whitespace-nowrap ${item.color}`}
+              className={`absolute mt-16 text-xs font-orbitron whitespace-nowrap ${item.color}`}
               initial={{ opacity: 0 }}
               animate={{ opacity: hoveredItem === item.path ? 1 : 0.8 }}
               transition={{ duration: 0.2 }}
