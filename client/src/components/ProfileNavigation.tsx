@@ -110,7 +110,7 @@ const ProfileNavigation = () => {
           >
             <Link href={item.path}>
               <button 
-                className={`w-14 h-14 rounded-full bg-space-secondary flex items-center justify-center shadow-${item.glowClass} transition-all duration-300 hover:scale-110`}
+                className={`w-14 h-14 rounded-full bg-space-secondary flex items-center justify-center ${item.glowClass} transition-all duration-300 hover:scale-110`}
                 aria-label={item.label}
               >
                 {item.icon}
