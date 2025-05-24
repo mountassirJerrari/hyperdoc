@@ -1,0 +1,63 @@
+Create an interactive, dark-themed personal HyperDocument presentation that feels like a cosmic tech experience.
+
+It should be styled like a futuristic digital portfolio with a dark background (space-like or GitHub-style), glowing elements, modern typography, and clean layout. The design should feel immersive, sleek, and professional but also creative.
+
+📌 Main Slide (Dashboard / Home):
+
+    A central circular profile picture (placeholder) with a glowing border
+
+    Around it, clickable floating buttons (or icons styled like planets or nodes) that link to other slides
+
+    Labels on the buttons: "My Journey", "About Me", "My Skills", "Projects", "Hobbies", "Contact Me"
+
+    Use smooth entrance animations like slide-in, fade-in, or orbit-style movements
+
+🪐 My Journey Slide:
+
+    Timeline of important life or academic moments
+
+    Minimalistic glowing dots or steps on a horizontal or vertical path
+
+🎭 About Me Slide:
+
+    Personality traits, values, and personal statement
+
+    A quote or “If you really knew me…” section
+
+🧠 Skills Slide:
+
+    Grid or cards for skills in tech (e.g., Java, Angular, Spring Boot, Docker, etc.)
+
+    Add icons for tech tools and soft skills
+
+💼 Projects Slide:
+
+    Visual gallery or thumbnails of projects
+
+    Each project is clickable → opens a slide with title, description, tools used, and lessons learned
+
+🎧 Hobbies Slide:
+
+    Mood board or aesthetic collage with dark styling
+
+    Embed space for a Spotify playlist, favorite books/movies
+
+📞 Contact Slide:
+
+    Include contact details (LinkedIn, GitHub, email)
+
+    Add clean, modern social media icons
+
+    Option to include a QR code or personal website
+
+✨ Design Style:
+
+    Cosmic dark background (stars, subtle gradients, or deep black)
+
+    Accent colors: neon blue, mint green, white, purple
+
+    Fonts: Orbitron, Roboto, or Montserrat
+
+    Interactive feel with transitions, clickable elements, and glowing hover effects
+
+Make sure the entire document flows like a personal journey through space — engaging, easy to navigate, visually dynamic, and deeply personalized.
