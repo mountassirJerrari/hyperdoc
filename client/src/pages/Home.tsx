@@ -73,8 +73,8 @@ const Home = () => {
         >
           <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-2 border-space-accent shadow-[0_0_15px_rgba(77,97,252,0.7)]">
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=300" 
-              alt="Profile" 
+              src="/profile.png" 
+              alt="Profile - Mountassir Jerrari" 
               className="w-full h-full object-cover"
             />
           </div>
@@ -87,7 +87,7 @@ const Home = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.5 }}
         >
-          <span className="text-space-accent">JOHN</span> DOE
+          <span className="text-space-accent">MOUNTASSIR</span> JERRARI
         </motion.h1>
         
         <motion.div 
@@ -103,7 +103,7 @@ const Home = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.5 }}
         >
-          Software Developer & Digital Artist
+          Software Engineering Student & Web Developer
         </motion.p>
         
         {/* Introduction Text */}
@@ -113,9 +113,9 @@ const Home = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.7, duration: 0.5 }}
         >
-          Creating digital experiences that blend technology and art. 
-          Specializing in full-stack development with a passion for 
-          creative coding and interactive applications.
+          Student in Software Engineering and Distributed Computer Systems at ENSET Mohammedia.
+          Passionate about web development and software engineering with experience in modern
+          frameworks like React, Next.js, and Angular. Looking to grow professionally.
         </motion.p>
         
         {/* Navigation Grid */}
