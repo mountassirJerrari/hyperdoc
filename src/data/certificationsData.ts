@@ -7,6 +7,7 @@ export type Certification = {
   isBadge: boolean;
   badgeImage?: string;
   verifyUrl?: string;
+  description?: string;
 };
 
 export const certifications: Certification[] = [
