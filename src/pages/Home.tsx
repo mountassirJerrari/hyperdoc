@@ -76,21 +76,60 @@ const Home = () => {
         transition={{ duration: 0.3 }}
       >
       <div className="max-w-5xl w-full flex flex-col items-center">
-        {/* Profile */}
-        <motion.div 
-          className="mb-6"
-          initial={{ scale: 0 }}
-          animate={{ scale: 1 }}
-          transition={{ duration: 0.3, delay: 0.1 }}
-        >
-          <div className="w-44 h-44 md:w-52 md:h-52 rounded-full overflow-hidden border-2 border-space-accent/50 shadow-[0_0_8px_rgba(77,97,252,0.3)]">
-            <img 
-              src="./profile.png" 
-              alt="Profile - Mountassir Jerrari" 
-              className="w-full h-full object-cover"
-            />
+        {/* Profile with Links */}
+        <div className="flex items-center justify-center gap-8 mb-6">
+          {/* Left Side Links */}
+          <div className="flex flex-col gap-4 text-right">
+            <a 
+              href="/cv_jerrari_mountassir-ast-freindly.pdf" 
+              download="Mountassir_Jerrari_AST_Friendly_CV.pdf"
+              className="text-space-cyan hover:text-space-cyan/80 transition-colors text-sm md:text-base"
+            >
+              AST Friendly CV
+            </a>
+            <a 
+              href="/cv-jerrari-mountassir-human-freindly.pdf" 
+              download="Mountassir_Jerrari_Human_Friendly_CV.pdf"
+              className="text-space-cyan hover:text-space-cyan/80 transition-colors text-sm md:text-base"
+            >
+              Human Friendly CV
+            </a>
           </div>
-        </motion.div>
+          
+          {/* Profile Picture */}
+          <motion.div 
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
+            transition={{ duration: 0.3, delay: 0.1 }}
+          >
+            <div className="w-44 h-44 md:w-52 md:h-52 rounded-full overflow-hidden border-2 border-space-accent/50 shadow-[0_0_8px_rgba(77,97,252,0.3)]">
+              <img 
+                src="./profile.png" 
+                alt="Profile - Mountassir Jerrari" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </motion.div>
+          
+          {/* Right Side Links */}
+          <div className="flex flex-col gap-4 text-left">
+            <a 
+              href="https://www.linkedin.com/jobs/view/4240971386/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-space-mint hover:text-space-mint/80 transition-colors text-sm md:text-base"
+            >
+              Job Offer
+            </a>
+            <a 
+              href="/cover_letter.pdf" 
+              download="Mountassir_Jerrari_Cover_Letter.pdf"
+              className="text-space-mint hover:text-space-mint/80 transition-colors text-sm md:text-base"
+            >
+              Cover Letter
+            </a>
+          </div>
+        </div>
         
         {/* Name and Title */}
         <motion.h1 
